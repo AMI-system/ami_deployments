@@ -12,4 +12,12 @@ Install the dependencies.
 pip install folium
 ```
 
-**Note:** If you would like to create a new map the the geojson files are downloaded from this repository: https://github.com/glynnbird/countriesgeojson/tree/master
+## Create a new map
+
+1. Download the geojson file from the country you would like to create the new map using this [repository](https://github.com/glynnbird/countriesgeojson/tree/master).
+
+2. Duplicate one of the map creators python files and rename it.
+
+3. Update the code to use the right geojson file and the right file from the files folder. 
+
+4. Run the map creator python script and a new html file would be created. 
